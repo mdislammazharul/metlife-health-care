@@ -15,21 +15,19 @@ const Doctors = () => {
                 {
                     services.map(service =>
                         <div className="col-12 col-lg-2 mb-3">
-                            <div className="card-style h-100">
-                                <Card className="text-center">
-                                    <Card.Img variant="top" src={service.img} />
-                                    <Card.Body>
-                                        <Card.Title>{service.careTeam}</Card.Title>
-                                        <Card.Text>
-                                            {service.description}
-                                        </Card.Text>
-                                    </Card.Body>
+                            <Card className="card-style text-center h-100">
+                                <Card.Img variant="top" src={service.img} />
+                                <Card.Body>
+                                    <Card.Title>{service.careTeam}</Card.Title>
+                                    <Card.Text>
+                                        {service.description}
+                                    </Card.Text>
+                                </Card.Body>
 
-                                    <Card.Footer>
-                                        <small className="text-muted">Emergency: {service.phone}</small>
-                                    </Card.Footer>
-                                </Card>
-                            </div>
+                                <Card.Footer>
+                                    <small className="text-muted">Emergency: {service.phone}</small>
+                                </Card.Footer>
+                            </Card>
                         </div>
                     )
                 }

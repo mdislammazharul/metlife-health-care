@@ -9,7 +9,7 @@ const Service = ({ service }) => {
     // console.log(service);
     return (
         <div id="services" className="service my-3 col-12 col-lg-4">
-            <Card className="card-style text-center">
+            <Card className="card-style text-center h-100">
                 <Card.Img variant="top" src={img} />
                 <Card.Body>
                     <Card.Title><strong>{name}</strong></Card.Title>

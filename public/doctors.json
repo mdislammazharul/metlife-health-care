@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "name": "Allergists/Immunologists",
+        "careTeam": "Emily F Crockett",
+        "description": "They treat immune system disorders such as asthma, eczema, food allergies, insect sting allergies, and some autoimmune diseases.",
+        "img": "https://i.ibb.co/H7xb4zb/Portrait-of-middle-aged-asian-female-doctor-standing-in-hospital-corridor.jpg",
+        "phone": "+16102347225"
+    },
+    {
+        "id": 2,
+        "name": "Cardiologists",
+        "careTeam": "Max Weber",
+        "description": "They’re experts on the heart and blood vessels. You might see them for heart failure, a heart attack or an irregular heartbeat.",
+        "img": "https://i.ibb.co/51ZPbYj/Confident-multiethnic-male-nurse-in-front-of-his-medical-team-looking-at-camera-wearing-face-mask-du.jpg",
+        "phone": "+16102347225"
+    },
+    {
+        "id": 3,
+        "name": "Dermatologists",
+        "careTeam": "Jasona Bronwilly",
+        "description": "Have problems with your skin, hair, nails? Do you have moles, scars, acne, or skin allergies? Dermatologists can help.",
+        "img": "https://i.ibb.co/85LW1vV/3.jpg",
+        "phone": "+16102347225"
+    },
+    {
+        "id": 4,
+        "name": "Endocrinologists",
+        "careTeam": "Anthoni Chekovi",
+        "description": "These are experts on hormones and metabolism. They can treat conditions like diabetes and calcium and bone disorders.",
+        "img": "https://i.ibb.co/VJX2dXB/4.jpg",
+        "phone": "+16102347225"
+    },
+    {
+        "id": 5,
+        "name": "Hematologists",
+        "careTeam": "Pilip Carter",
+        "description": "These are specialists in diseases of the blood, spleen, and lymph glands, like sickle cell disease, anemia and leukemia.",
+        "img": "https://i.ibb.co/bWfYx8X/Portrait-Of-Mature-Male-Doctor-Wearing-White-Coat-Standing-In-Hospital-Corridor.jpg",
+        "phone": "+16102347225"
+    },
+    {
+        "id": 6,
+        "name": "Nephrologists",
+        "careTeam": "Alfred Soren",
+        "description": "They treat kidney diseases as well as high blood pressure and fluid and mineral imbalances linked to kidney disease. Its very essential.",
+        "img": "https://i.ibb.co/TqY0PBK/Woman-watching-a-laptop-screen-while-stretching-her-hand-and-typing-on-it.jpg",
+        "phone": "+16102347225"
+    }
+]

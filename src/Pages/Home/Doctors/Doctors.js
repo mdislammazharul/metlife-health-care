@@ -4,7 +4,7 @@ import { Card } from 'react-bootstrap';
 const Doctors = () => {
     const [services, setServices] = useState([])
     useEffect(() => {
-        fetch('./services.json')
+        fetch('./doctors.json')
             .then(res => res.json())
             .then(data => setServices(data));
     }, []);
@@ -15,18 +15,17 @@ const Doctors = () => {
                 {
                     services.map(service =>
                         <div className="col col-lg-2">
-                            <div className="">
+                            <div className="card-style">
                                 <Card>
                                     <Card.Img variant="top" src={service.img} />
                                     <Card.Body>
                                         <Card.Title>{service.careTeam}</Card.Title>
                                         <Card.Text>
-                                            This is a wider card with supporting text below as a natural lead-in to
-                                            additional content. This content is a little bit longer.
+                                            {service.description}
                                         </Card.Text>
                                     </Card.Body>
                                     <Card.Footer>
-                                        <small className="text-muted">Last updated 3 mins ago</small>
+                                        <small className="text-muted">Emergency: {service.phone}</small>
                                     </Card.Footer>
                                 </Card>
                             </div>

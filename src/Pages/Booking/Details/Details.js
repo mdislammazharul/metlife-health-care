@@ -6,7 +6,7 @@ const Details = (props) => {
 
     return (
         <div>
-            <h1 className="my-5 d-flex justify-content-center">{name}</h1>
+            <h1 className="my-5 d-flex justify-content-center text-danger">{name}</h1>
             <div className="card mb-5 container card-style">
                 <div className="row g-0 mb-3">
                     <div className="col-md-4">
@@ -14,7 +14,7 @@ const Details = (props) => {
                         <br />
                         <div className="d-flex justify-content-between">
                             <button className="btn btn-warning mt-5">Check Out This Service</button>
-                            <button className="btn btn-danger mt-5">Call Energency</button>
+                            <button className="btn btn-danger mt-5">Call Emergency</button>
                         </div>
                     </div>
                     <div className="col-md-8">

@@ -13,22 +13,22 @@ const Header = () => {
         <div>
             <Navbar bg="dark" variant="dark" sticky="top" collapseOnSelect expand="lg">
                 <Container style={{ color: 'white' }}>
-                    <Navbar.Brand href="#home">Genius Car Mechanics</Navbar.Brand>
+                    <Navbar.Brand href="#home">MetLife Health Care</Navbar.Brand>
                     <Navbar.Toggle />
                     <Navbar.Collapse className="header justify-content-end">
                         <HashLink className="me-3" to="/home#home">Home</HashLink>
                         <HashLink className="me-3" to="/home#services">Services</HashLink>
-                        <HashLink className="me-3" to="/home#doctors">Doctors</HashLink>
-                        <HashLink className="me-3" to="/page3">Page3</HashLink>
-                        <HashLink className="me-3" to="/page4">Page4</HashLink>
-                        <HashLink className="me-3" to="/page5" > Page5</HashLink>
+                        <HashLink className="me-3" to="/home#doctors">Specialist</HashLink>
+                        <HashLink className="me-3" to="/live">Live Consultancy</HashLink>
+                        <HashLink className="me-3" to="/donate">Donate Us</HashLink>
+                        <HashLink className="me-3" to="/tips">Live Health Tips</HashLink>
                         {user?.displayName && <Navbar.Text>
                             Signed in as: <a className="me-3" href="#login">{user?.displayName}</a>
                         </Navbar.Text>}
                         {
                             user?.displayName ?
                                 <button onClick={logOut} className="btn btn-light">LogOut</button> :
-                                <Nav.Link as={HashLink} to="/login">Login</Nav.Link>
+                                <HashLink to="/login">Login</HashLink>
                         }
                     </Navbar.Collapse >
                 </Container >

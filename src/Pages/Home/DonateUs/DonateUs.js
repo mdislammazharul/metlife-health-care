@@ -3,7 +3,7 @@ import React from 'react';
 const DonateUs = () => {
     return (
         <div>
-            <h1 className="d-flex justify-content-center text-danger my-5">Donate Us</h1>
+            <h1 className="d-flex justify-content-center text-danger my-5 display-2">Donate Us</h1>
             <div className="mx-5">
                 <form className="row g-3">
                     <div className="col-md-3">

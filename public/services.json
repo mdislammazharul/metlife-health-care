@@ -11,7 +11,7 @@
         "id": 2,
         "name": "Blood Bank",
         "careTeam": "Max Weber, Hebar Boss",
-        "description": "Blood drives life, it’s constantly circulating within the human body ensuring that all essential substances like nutrition, oxygen reach all different parts of our body and the cells. An average person carries nearly 5 liters of blood, it circulates the body through blood vessels and is pumped through the heart.",
+        "description": "Blood drives life, it’s constantly circulating within the human body ensuring that all essential substances like nutrition, oxygen reach all different parts of our body and the cells. An average person carries nearly 5 liters of blood, it circulates the body through blood vessels and is pumped through the heart. We have lot of collaborations.",
         "img": "https://i.ibb.co/DVby9y3/2.jpg",
         "cost": "$170"
     },
@@ -27,7 +27,7 @@
         "id": 4,
         "name": "Diabetology",
         "careTeam": "Anthon Chekov, Josh Rusvelt",
-        "description": "Narayana Health is one of the best diabetes hospitals in India for diabetic screenings and diabetes or prediabetes treatment. The diabetes care program at Narayana Health, the best diabetes hospital in India is dedicated to making Indian healthy and diabetes-free. When you have diabetes, your body won’t make enough insulin.",
+        "description": "Narayana Health is one of the best diabetes hospitals in India for diabetic screenings and diabetes or prediabetes treatment. The diabetes care program at Narayana Health, the best diabetes hospital in India is dedicated to making Indian healthy and diabetes-free. When you have diabetes, your body won’t make enough insulin. We have lot of collaborations.",
         "img": "https://i.ibb.co/jgLsBZf/measuring-blood-sugar.jpg",
         "cost": "$80"
     },
@@ -43,7 +43,7 @@
         "id": 6,
         "name": "Heart Transplant",
         "careTeam": "Robert Cook, Alfred Soren",
-        "description": "Heart disease is rapidly becoming a major health concern in our country. What is alarming is that many of these patients are young and are first diagnosed in advanced and terminal stages of the disease, with heart failure. Heart failureis a stage wherein the heart can't function adequately to meet the demands of the body.",
+        "description": "Heart disease is rapidly becoming a major health concern in our country. What is alarming is that many of these patients are young and are first diagnosed in advanced and terminal stages of the disease, with heart failure. Heart failureis a stage wherein the heart can't function adequately to meet the demands of the body. We have lot of collaborations.",
         "img": "https://i.ibb.co/BwpkCs3/6.jpg",
         "cost": "$230"
     }

@@ -16,8 +16,8 @@ const Banner = () => {
                         alt="First slide"
                     />
                     <Carousel.Caption>
-                        <h3>First slide label</h3>
-                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                        <h1 className="text-danger fw-bold">Expert Medical Specialists</h1>
+                        <h4 className="text-light bg-dark">There are many types of doctor, and a person’s specific concern will usually determine the type of doctor they choose.</h4>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -28,8 +28,8 @@ const Banner = () => {
                     />
 
                     <Carousel.Caption>
-                        <h3>Second slide label</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <h1 className="text-danger fw-bold">Advanced Diagnostic Centre</h1>
+                        <h4 className="text-light bg-dark">We care your health, MetLife Diagnostic Centre Ltd. has a collection of the most advanced medical technologies for the patients.</h4>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -40,8 +40,8 @@ const Banner = () => {
                     />
 
                     <Carousel.Caption>
-                        <h3>Third slide label</h3>
-                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                        <h1 className="text-danger fw-bold">Modern Operation Theatres</h1>
+                        <h4 className="text-light bg-dark">We are one of the leading private hospitals with state-of-the-art, fully equipped, divided in sterile zone (restricted zone), non-restricted zone.</h4>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -52,8 +52,8 @@ const Banner = () => {
                     />
 
                     <Carousel.Caption>
-                        <h3>Third slide label</h3>
-                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                        <h1 className="text-danger fw-bold">Emergency Ambulance Service</h1>
+                        <h4 className="text-light bg-dark">Need ambulance service near you? MetLife provides emergency ambulance service with life support and freezing support. Book now.</h4>
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>

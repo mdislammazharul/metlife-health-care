@@ -11,11 +11,11 @@ const Doctors = () => {
     return (
         <div id="doctors">
             <div className="row mx-5 mb-5">
-                <h2 className="text-danger d-flex justify-content-center my-5">MetLife Specialist</h2>
+                <h2 className="text-danger d-flex justify-content-center my-5 display-2">MetLife Specialist</h2>
                 {
                     services.map(service =>
                         <div className="col col-lg-2">
-                            <div className="card-style">
+                            <div className="card-style h-100">
                                 <Card>
                                     <Card.Img variant="top" src={service.img} />
                                     <Card.Body>
@@ -24,6 +24,7 @@ const Doctors = () => {
                                             {service.description}
                                         </Card.Text>
                                     </Card.Body>
+
                                     <Card.Footer>
                                         <small className="text-muted">Emergency: {service.phone}</small>
                                     </Card.Footer>

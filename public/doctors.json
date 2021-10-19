@@ -11,7 +11,7 @@
         "id": 2,
         "name": "Cardiologists",
         "careTeam": "Max Weber",
-        "description": "They’re experts on the heart and blood vessels. You might see them for heart failure, a heart attack or an irregular heartbeat.",
+        "description": "They’re experts on the heart and blood vessels. You might see them for heart failure, a heart attack or an irregular heartbeat. She is an expert.",
         "img": "https://i.ibb.co/51ZPbYj/Confident-multiethnic-male-nurse-in-front-of-his-medical-team-looking-at-camera-wearing-face-mask-du.jpg",
         "phone": "+16102347225"
     },
@@ -27,7 +27,7 @@
         "id": 4,
         "name": "Endocrinologists",
         "careTeam": "Anthoni Chekovi",
-        "description": "These are experts on hormones and metabolism. They can treat conditions like diabetes and calcium and bone disorders.",
+        "description": "These are experts on hormones and metabolism. They can treat conditions like diabetes and calcium and bone disorders. She is an expert.",
         "img": "https://i.ibb.co/VJX2dXB/4.jpg",
         "phone": "+16102347225"
     },
@@ -35,7 +35,7 @@
         "id": 5,
         "name": "Hematologists",
         "careTeam": "Pilip Carter",
-        "description": "These are specialists in diseases of the blood, spleen, and lymph glands, like sickle cell disease, anemia and leukemia.",
+        "description": "These are specialists in diseases of the blood, spleen, and lymph glands, like sickle cell disease, anemia and leukemia. She is an expert.",
         "img": "https://i.ibb.co/bWfYx8X/Portrait-Of-Mature-Male-Doctor-Wearing-White-Coat-Standing-In-Hospital-Corridor.jpg",
         "phone": "+16102347225"
     },

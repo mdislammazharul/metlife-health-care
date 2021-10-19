@@ -4,7 +4,7 @@ const HealthTips = () => {
     return (
         <div>
             <div className="row me-0 ms-5">
-
+                <h1 className="d-flex justify-content-center text-danger my-5 display-2">Live Consultancy and Health Tips</h1>
                 <div className="col col-lg-6 d-flex align-items-center">
                     <h2 className="text-danger">Please Wait Some Time</h2>
                     <p>Your Live Consultancy Will be Started Very Soon</p>

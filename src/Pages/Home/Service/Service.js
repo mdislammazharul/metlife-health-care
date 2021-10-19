@@ -5,11 +5,11 @@ import './Service.css';
 
 const Service = ({ service }) => {
     // const {service} = props;
-    const { id, name, price, description, img } = service;
+    const { id, name, careTeam, description, img } = service;
     // console.log(service);
     return (
-        <div className="service pb-3 col col-lg-4">
-            <Card>
+        <div id="services" className="service my-3 col col-lg-4">
+            <Card className="card-style">
                 <Card.Img variant="top" src={img} />
                 <Card.Body>
                     <Card.Title>{name}</Card.Title>
@@ -17,7 +17,7 @@ const Service = ({ service }) => {
                         {description}
                     </Card.Text>
                     <Card.Text>
-                        Price: {price}
+                        Care Team: {careTeam}
                     </Card.Text>
                 </Card.Body>
                 <Card.Footer>

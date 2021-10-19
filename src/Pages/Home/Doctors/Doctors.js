@@ -1,8 +1,8 @@
 import React from 'react';
 
-const HomeSection2 = () => {
+const Doctors = () => {
     return (
-        <div id="homeSection2">
+        <div id="doctors">
             <h2>This is Home Section 2</h2>
             <h2>This is Home Section 2</h2>
             <h2>This is Home Section 2</h2>
@@ -10,4 +10,4 @@ const HomeSection2 = () => {
     );
 };
 
-export default HomeSection2;
+export default Doctors;

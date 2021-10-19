@@ -1,44 +1,50 @@
 [
     {
         "id": 1,
-        "name": "ENGINE DIAGNOSTIC",
-        "price": "300",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
-        "img": "https://i.ibb.co/dGDkr4v/1.jpg"
+        "name": "Allergy & Asthma Services",
+        "careTeam": "John Baldwin Cox, Emily F Crockett",
+        "description": "Asthma and allergies can disrupt your busy lifestyle. In some cases, symptoms can be life-threatening. At MUSC Health, you have access to specialized care close to home. We offer complete care, including an accurate diagnosis and the latest treatments in one program. We help you find lasting relief so you can live life on your terms.",
+        "img": "https://i.ibb.co/yyXJfCx/1.jpg",
+        "cost": "$130"
     },
     {
         "id": 2,
-        "name": "WHEEL ALIGNMENT",
-        "price": "100",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
-        "img": "https://i.ibb.co/tY8dmnP/2.jpg"
+        "name": "Blood Bank",
+        "careTeam": "Max Weber, Hebar Boss",
+        "description": "Blood drives life, it’s constantly circulating within the human body ensuring that all essential substances like nutrition, oxygen reach all different parts of our body and the cells. An average person carries nearly 5 liters of blood, it circulates the body through blood vessels and is pumped through the heart.",
+        "img": "https://i.ibb.co/DVby9y3/2.jpg",
+        "cost": "$170"
     },
     {
         "id": 3,
-        "name": "OIL CHANGING",
-        "price": "150",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
-        "img": "https://i.ibb.co/Yh04YVw/3.jpg"
+        "name": "Echocardiography",
+        "careTeam": "Will Smith, Jason Bronwill",
+        "description": "Years ago, a physician who suspected heart disease in you probably did not refer you to a gum specialist. Times have changed. The past years have seen increasing links between oral health and body health.Visiting a dentist is as necessary as consulting a cardiologist for your heart health. We do tend to ignore our oral care.",
+        "img": "https://i.ibb.co/9YG6XwR/3.jpg",
+        "cost": "$120"
     },
     {
         "id": 4,
-        "name": "BRAKE REPARING",
-        "price": "180",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
-        "img": "https://i.ibb.co/ZX2Cbkn/4.jpg"
+        "name": "Diabetology",
+        "careTeam": "Anthon Chekov, Josh Rusvelt",
+        "description": "Narayana Health is one of the best diabetes hospitals in India for diabetic screenings and diabetes or prediabetes treatment. The diabetes care program at Narayana Health, the best diabetes hospital in India is dedicated to making Indian healthy and diabetes-free. When you have diabetes, your body won’t make enough insulin.",
+        "img": "https://i.ibb.co/jgLsBZf/measuring-blood-sugar.jpg",
+        "cost": "$80"
     },
     {
         "id": 5,
-        "name": "WASH AND GLASSING",
-        "price": "100",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
-        "img": "https://i.ibb.co/FgQ3jXp/5.jpg"
+        "name": "Emergency Medicine",
+        "careTeam": "Pilip Carter, Martin Max",
+        "description": "Narayana Health is well-equipped with the most advanced technologies and equipment. The staff, nurses and physicians work round the clock to deal with all levels of medical emergencies. The hospital is equipped with highly advanced emergency room, paramedics and staff nurse who are versatile in dealing with all sorts of medical emergencies.",
+        "img": "https://i.ibb.co/b3GBYqw/5.jpg",
+        "cost": "$30"
     },
     {
         "id": 6,
-        "name": "COMPLETE ANALYSIS",
-        "price": "300",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa",
-        "img": "https://i.ibb.co/zJy5ZDd/6.jpg"
+        "name": "Heart Transplant",
+        "careTeam": "Robert Cook, Alfred Soren",
+        "description": "Heart disease is rapidly becoming a major health concern in our country. What is alarming is that many of these patients are young and are first diagnosed in advanced and terminal stages of the disease, with heart failure. Heart failureis a stage wherein the heart can't function adequately to meet the demands of the body.",
+        "img": "https://i.ibb.co/BwpkCs3/6.jpg",
+        "cost": "$230"
     }
 ]

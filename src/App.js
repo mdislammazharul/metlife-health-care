@@ -11,9 +11,6 @@ import Booking from './Pages/Booking/Booking/Booking';
 import LiveConsultancy from './Pages/Home/LiveConsultancy/LiveConsultancy';
 import DonateUs from './Pages/Home/DonateUs/DonateUs';
 import HealthTips from './Pages/Home/HealthTips/HealthTips';
-import HealthHacks from './Pages/Home/HealthHacks/HealthHacks';
-
-
 
 function App() {
   return (
@@ -32,9 +29,6 @@ function App() {
               <Route path="/live">
                 <LiveConsultancy></LiveConsultancy>
               </Route>
-              {/* <Route path="/hacks">
-                <HealthHacks></HealthHacks>
-              </Route> */}
               <PrivateRoute path="/booking/:serviceId">
                 <Booking></Booking>
               </PrivateRoute>

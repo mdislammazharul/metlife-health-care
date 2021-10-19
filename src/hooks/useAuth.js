@@ -1,5 +1,3 @@
-// non-customized
-
 import { useContext } from "react"
 import { AuthContext } from "../contexts/AuthProvider"
 

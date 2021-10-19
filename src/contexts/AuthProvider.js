@@ -1,5 +1,3 @@
-// non - customized
-
 import React from 'react';
 import { createContext } from 'react';
 import useFirebase from '../hooks/useFirebase';

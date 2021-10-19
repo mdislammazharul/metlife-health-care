@@ -1,19 +1,17 @@
 import React from 'react';
+import './HealthTips.css'
 
 const HealthTips = () => {
     return (
         <div>
-            <div className="row me-0 ms-5">
+            <div className="container-fluid">
                 <h1 className="d-flex justify-content-center text-danger my-5 display-2">Live Consultancy and Health Tips</h1>
-                <div className="col col-lg-6 d-flex align-items-center">
-                    <h2 className="text-danger">Please Wait Some Time</h2>
-                    <p>Your Live Consultancy Will be Started Very Soon</p>
-                </div>
-                <div className="col col-lg-4 my-5">
-                    <iframe width="600px" height="480px" src="https://www.youtube.com/embed/vSSuWAqYMqk">
-                    </iframe>
-                </div>
+                {/* <iframe width="360px" height="640px" src="https://www.youtube.com/embed/vSSuWAqYMqk">
+                    </iframe> */}
+                <div>
+                    <iframe className="container-fluid" height="715" src="https://www.youtube.com/embed/vSSuWAqYMqk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+                </div>
             </div>
         </div>
     );

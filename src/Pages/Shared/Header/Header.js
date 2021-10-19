@@ -1,5 +1,3 @@
-// non - customized
-
 import React from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
 import useAuth from '../../../hooks/useAuth';
@@ -7,11 +5,11 @@ import { HashLink } from 'react-router-hash-link';
 import './Header.css'
 
 const Header = () => {
-    // the main part for google login!!
+
     const { user, logOut } = useAuth();
     return (
         <div>
-            <Navbar bg="dark" variant="dark" sticky="top" collapseOnSelect expand="lg">
+            <Navbar className="nav-color" variant="dark" sticky="top" collapseOnSelect expand="lg">
                 <Container style={{ color: 'white' }}>
                     <Navbar.Brand href="#home">MetLife Health Care</Navbar.Brand>
                     <Navbar.Toggle />

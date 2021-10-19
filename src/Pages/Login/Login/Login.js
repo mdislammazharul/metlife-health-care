@@ -1,5 +1,3 @@
-// non - customized
-
 import React from 'react';
 import { useHistory, useLocation } from 'react-router';
 import useAuth from '../../../hooks/useAuth';
@@ -82,8 +80,8 @@ const Login = () => {
 
                 </form>
                 <h2 className="mt-5 mb-3 text-primary">Login In With</h2>
-                <button onClick={handleGoogleLogin} className="btn btn-warning me-5">Google Sign In</button>
-                <button onClick={handleGithubLogin} className="btn btn-warning">Github Sign In</button>
+                <button onClick={handleGoogleLogin} className="btn btn-warning me-5"><i class="fab fa-google"></i> Google Sign In</button>
+                <button onClick={handleGithubLogin} className="btn btn-warning"><i class="fab fa-github"></i> Github Sign In</button>
             </div>
         </div>
     );

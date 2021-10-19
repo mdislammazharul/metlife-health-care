@@ -12,13 +12,13 @@ https://metlife-health-care.web.app
 ```
 
 ## About the Site
-1. The site uses React Library for building user interfaces and UI components.
-2. This site hase some private route. To access these page, you need to login first.
-3. The login system here is implemented by Firebase Authentication.
-4. One can sign up here using his/her Gmail Account or GitHub Account.
-5. Used Bootstrap as CSS framework.
-6. Used Fontawesome for icons.
-7. Moreover Custom Hooks, Context API and useAuth is used in this site. 
+* The site uses React Library for building user interfaces and UI components.
+* This site hase some private route. To access these page, you need to login first.
+* The login system here is implemented by Firebase Authentication.
+* One can sign up here using his/her Gmail Account or GitHub Account.
+* Used Bootstrap as CSS framework.
+* Used Fontawesome for icons.
+* Moreover Custom Hooks, Context API and useAuth is used in this site. 
 
 ## License
 [Md Mazharul Islam](https://github.com/mdislammazharul)

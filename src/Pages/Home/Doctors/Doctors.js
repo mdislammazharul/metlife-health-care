@@ -11,10 +11,10 @@ const Doctors = () => {
     return (
         <div id="doctors">
             <div className="row mx-5 mb-5">
-                <h2 className="text-danger d-flex justify-content-center my-5 display-2">MetLife Specialist</h2>
+                <h2 className="text-danger text-center my-5 display-2">MetLife Specialist</h2>
                 {
                     services.map(service =>
-                        <div className="col col-lg-2">
+                        <div className="col-12 col-lg-2 mb-3">
                             <div className="card-style h-100">
                                 <Card className="text-center">
                                     <Card.Img variant="top" src={service.img} />

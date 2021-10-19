@@ -11,7 +11,7 @@ const LiveConsultancy = () => {
 
     return (
         <div className="mx-5">
-            <h2 className="d-flex justify-content-center text-danger my-5 display-2">Fill the Live Consultancy Form</h2>
+            <h2 className="text-center text-danger my-5 display-2">Fill the Live Consultancy Form</h2>
             <div>
                 <form className="row g-3">
                     <div>

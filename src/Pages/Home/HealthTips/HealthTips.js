@@ -5,7 +5,7 @@ const HealthTips = () => {
     return (
         <div>
             <div className="container-fluid">
-                <h1 className="d-flex justify-content-center text-danger my-5 display-2">Live Consultancy and Health Tips</h1>
+                <h1 className="text-center text-danger my-5 display-2">Live Consultancy and Health Tips</h1>
                 {/* <iframe width="360px" height="640px" src="https://www.youtube.com/embed/vSSuWAqYMqk">
                     </iframe> */}
                 <div>

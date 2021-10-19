@@ -8,7 +8,7 @@ const Service = ({ service }) => {
     const { id, name, careTeam, description, img } = service;
     // console.log(service);
     return (
-        <div id="services" className="service my-3 col col-lg-4">
+        <div id="services" className="service my-3 col-12 col-lg-4">
             <Card className="card-style text-center">
                 <Card.Img variant="top" src={img} />
                 <Card.Body>

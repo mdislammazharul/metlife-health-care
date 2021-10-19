@@ -73,15 +73,19 @@ const Login = () => {
                         </div>
                     </div>
                     <div className="row mb-3 text-danger">{error}</div>
-                    <button onClick={handleProcessLogin} type="submit" className="btn btn-primary me-3">
-                        {isLogin ? 'Login' : 'Register'}
-                    </button>
-                    <button type="button" onClick={handleResetPassword} className="btn btn-danger">Reset Password</button>
+                    <div className="d-flex">
+                        <button onClick={handleProcessLogin} type="submit" className="btn btn-primary me-3">
+                            {isLogin ? 'Login' : 'Register'}
+                        </button>
+                        <button type="button" onClick={handleResetPassword} className="btn btn-danger">Reset Password</button>
+                    </div>
 
                 </form>
                 <h2 className="mt-5 mb-3 text-primary">Login In With</h2>
-                <button onClick={handleGoogleLogin} className="btn btn-warning me-5"><i class="fab fa-google"></i> Google Sign In</button>
-                <button onClick={handleGithubLogin} className="btn btn-warning"><i class="fab fa-github"></i> Github Sign In</button>
+                <div className="d-flex mb-3">
+                    <button onClick={handleGoogleLogin} className="btn btn-warning me-5"><i class="fab fa-google"></i> Google Sign In</button>
+                    <button onClick={handleGithubLogin} className="btn btn-warning"><i class="fab fa-github"></i> Github Sign In</button>
+                </div>
             </div>
         </div>
     );

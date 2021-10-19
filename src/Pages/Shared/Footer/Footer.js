@@ -3,12 +3,12 @@ import './Footer.css'
 
 const Footer = () => {
     return (
-        <div class="d-flex flex-column h-100">
+        <div class="d-flex flex-column h-100 footer">
 
             {/* <!-- FOOTER --> */}
-            <footer class="w-100 py-4 flex-shrink-0">
-                <div class="container py-4">
-                    <div class="row gy-4 gx-5 d-flex justify-content-between">
+            <footer class="w-fluid py-4 flex-shrink-0">
+                < div class="container py-4" >
+                    <div class="row gy-4 d-flex justify-content-between footer">
                         <div class="col-lg-4 col-md-6">
                             <h5 class="h1 text-white">MetLife Health Care</h5>
                             <p class="small text-muted">MetLife is a specialized hospital and medical consultancy with modern medical technologies to provide best medical services.</p>
@@ -36,9 +36,9 @@ const Footer = () => {
                             </form>
                         </div>
                     </div>
-                </div>
-            </footer>
-        </div>
+                </div >
+            </footer >
+        </div >
     );
 };
 

@@ -1,70 +1,27 @@
-# Getting Started with Create React App
+# MetLife Health Care
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+'MetLife Health Care' is a simple react based website for consulting a medical doctor or ensuring modern medical services with cutting edge technology.
 
-## Available Scripts
+## Live Link
 
-In the project directory, you can run:
+Use the link to open the Live Site of this project.
+[Rock The Throne](https://rock-the-throne-mdislammazharul.netlify.app)
 
-### `yarn start`
+```bash
+rock-the-throne-mdislammazharul.netlify.app
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## About the Site
+1. The site uses React Library for building user interfaces and UI components.
+2. This site hase some private route. To access these page, you need to login first.
+3. The login system here is implemented by Firebase Authentication.
+4. One can sign up here using his/her Gmail Account or GitHub Account.
+5. Used Bootstrap as CSS framework.
+6. Used Fontawesome for icons.
+7. Moreover Custom Hooks, Context API and useAuth is used in this site. 
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## License
+[Md Mazharul Islam](https://github.com/mdislammazharul)
 
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Disclaimer
+This site is project work. All the data given here are fake. Don't take it seriously!

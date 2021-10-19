@@ -14,4 +14,6 @@ a:hover, a:focus {
 
 footer {
   background: #212529;
+  width: 100%;
+  overflow-x: hidden;
 }

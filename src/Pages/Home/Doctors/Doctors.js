@@ -16,7 +16,7 @@ const Doctors = () => {
                     services.map(service =>
                         <div className="col col-lg-2">
                             <div className="card-style h-100">
-                                <Card>
+                                <Card className="text-center">
                                     <Card.Img variant="top" src={service.img} />
                                     <Card.Body>
                                         <Card.Title>{service.careTeam}</Card.Title>

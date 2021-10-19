@@ -8,8 +8,8 @@ import ambulance from '../../../images/banner/ambulance.jpg'
 const Banner = () => {
     return (
         <div>
-            <Carousel>
-                <Carousel.Item className="container-fluid">
+            <Carousel className="text-center" indicators={false}>
+                <Carousel.Item>
                     <div>
                         <img
                             className="d-block img-fluid"
@@ -17,38 +17,37 @@ const Banner = () => {
                             alt="First slide"
                         />
                         <div>
-                            <h1 className="text-danger fw-bold d-flex justify-content-center">Expert Medical Specialists</h1>
-                            <h4 className="text-light bg-dark d-flex justify-content-center">There are many types of doctor, and a person’s specific concern will usually determine the type of doctor they choose.</h4>
+                            <h1 className="text-danger fw-bold">Expert Medical Specialists</h1>
+                            <h4 className="text-light bg-dark">There are many types of doctor, and a person’s specific concern will usually determine the type of doctor they choose.</h4>
                         </div>
                     </div>
-
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
-                        className="d-block w-100"
+                        className="d-block img-fluid"
                         src={diagonosis}
                         alt="Second slide"
                     />
 
-                    <div>
+                    <div className="text-center">
                         <h1 className="text-danger fw-bold">Advanced Diagnostic Centre</h1>
                         <h4 className="text-light bg-dark">We care your health, MetLife Diagnostic Centre Ltd. has a collection of the most advanced medical technologies for the patients.</h4>
                     </div>
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
-                        className="d-block w-100"
+                        className="d-block img-fluid"
                         src={operation}
                         alt="Third slide"
                     />
                     <div>
                         <h1 className="text-danger fw-bold">Modern Operation Theatres</h1>
-                        <h4 className="text-light bg-dark">We are one of the leading private hospitals with state-of-the-art, fully equipped, divided in sterile zone (restricted zone), non-restricted zone.</h4>
+                        <h4 className="text-light bg-dark">We are one of the leading private hospitals with state-of-the-art, divided in sterile zone (restricted zone), non-restricted zone.</h4>
                     </div>
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
-                        className="d-block w-100"
+                        className="d-block img-fluid"
                         src={ambulance}
                         alt="Third slide"
                     />

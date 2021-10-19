@@ -19,6 +19,7 @@ const Header = () => {
                         <HashLink className="me-3" to="/home#home">Home</HashLink>
                         <HashLink className="me-3" to="/home#services">Services</HashLink>
                         <HashLink className="me-3" to="/home#doctors">Specialist</HashLink>
+                        <HashLink className="me-3" to="/home#hacks">Health Hacks</HashLink>
                         <HashLink className="me-3" to="/live">Live Consultancy</HashLink>
                         <HashLink className="me-3" to="/donate">Donate Us</HashLink>
                         <HashLink className="me-3" to="/tips">Live Health Tips</HashLink>

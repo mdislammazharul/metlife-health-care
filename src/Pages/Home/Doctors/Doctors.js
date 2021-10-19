@@ -34,8 +34,6 @@ const Doctors = () => {
                     )
                 }
             </div>
-
-            {/*  */}
         </div>
     );
 };
